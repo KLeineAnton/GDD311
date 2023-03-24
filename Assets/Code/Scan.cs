@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class Scan : MonoBehaviour
 {
     public int foodCount = 0;
+    public int total;
 
     private void Start()
     {
@@ -16,13 +17,16 @@ public class Scan : MonoBehaviour
         
     }
     //triggers sound and food counter
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        foodCount += foodCount;
-        //que sound(check gdd211 puzzle noise)
-        if(foodCount == 4)
+        if (collision.gameObject.tag == "GroceryItem")
         {
-            Debug.Log("Pretend the scene is changing");
+            foodCount = foodCount + 1; 
+
+        }
+        if(foodCount == total)
+        {
+            SceneManager.LoadScene(2);
         }
     }
 

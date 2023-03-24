@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GroceryGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bad End.unity
+    guid: ed1b58cae2d874af6936ce1e72bcc7c7
+  - enabled: 1
+    path: Assets/Scenes/Good End.unity
+    guid: f0adbc14098e945fc8b3078fc3eab2e3
   m_configObjects: {}

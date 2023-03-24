@@ -6,8 +6,6 @@ public class Food : MonoBehaviour
 {
     Vector3 mouseLocation;
 
-    //have function to move item down converbelt
-
     //grabs mouse location
     private Vector3 CurrentMouseLocation()
     {
@@ -25,5 +23,14 @@ public class Food : MonoBehaviour
     {
         transform.position = CurrentMouseLocation() + mouseLocation;
     }
-    
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Scanner")
+        {
+           // Destroy(gameObject);
+        }
+        
+    }
+
 }
