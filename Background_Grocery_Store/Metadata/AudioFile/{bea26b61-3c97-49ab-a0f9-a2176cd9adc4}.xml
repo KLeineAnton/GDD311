@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bea26b61-3c97-49ab-a0f9-a2176cd9adc4}">
+		<property name="assetPath">
+			<value>Ringtone.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5673469387755101</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01ce031c-8d90-47a4-a930-8d4f69b2e173}</destination>
+		</relationship>
+	</object>
+</objects>

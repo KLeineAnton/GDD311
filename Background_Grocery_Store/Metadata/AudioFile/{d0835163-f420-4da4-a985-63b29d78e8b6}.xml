@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d0835163-f420-4da4-a985-63b29d78e8b6}">
+		<property name="assetPath">
+			<value>grociery bag ruffeling.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9484583333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01ce031c-8d90-47a4-a930-8d4f69b2e173}</destination>
+		</relationship>
+	</object>
+</objects>

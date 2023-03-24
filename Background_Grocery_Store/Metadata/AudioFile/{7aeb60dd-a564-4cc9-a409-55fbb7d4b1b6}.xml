@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7aeb60dd-a564-4cc9-a409-55fbb7d4b1b6}">
+		<property name="assetPath">
+			<value>Bag_ruffeling.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01ce031c-8d90-47a4-a930-8d4f69b2e173}</destination>
+		</relationship>
+	</object>
+</objects>
