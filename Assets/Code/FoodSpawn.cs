@@ -22,7 +22,7 @@ public class FoodSpawn : MonoBehaviour
         {
             Instantiate(FoodArray[randomIndex], new Vector3(9f, -2.5f, 0f), Quaternion.identity);
 
-            Timer = 2;
+            Timer = 5;
         }
   
     }
